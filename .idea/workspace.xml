@@ -9,122 +9,72 @@
     <cargoProject FILE="$PROJECT_DIR$/03_headr/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/04_wcr/Cargo.toml" />
     <cargoProject FILE="$PROJECT_DIR$/05_uniqr/Cargo.toml" />
+    <cargoProject FILE="$PROJECT_DIR$/06_findr/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9652420-69d8-413f-ace9-053840fb99e3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/04_wcr/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/mk-outs.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/src/main.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/cli.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/all.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/all.cl.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/all.l.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/all.lwm.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/all.m.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/all.ml.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/all.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/all.w.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/all.wc.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/all.wl.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/all.wm.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/atlamal.txt.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/atlamal.txt.cl.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/atlamal.txt.l.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/atlamal.txt.lwm.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/atlamal.txt.m.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/atlamal.txt.ml.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/atlamal.txt.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/atlamal.txt.stdin.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/atlamal.txt.w.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/atlamal.txt.wc.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/atlamal.txt.wl.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/atlamal.txt.wm.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/empty.txt.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/empty.txt.cl.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/empty.txt.l.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/empty.txt.lwm.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/empty.txt.m.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/empty.txt.ml.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/empty.txt.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/empty.txt.w.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/empty.txt.wc.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/empty.txt.wl.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/empty.txt.wm.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/fox.txt.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/fox.txt.cl.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/fox.txt.l.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/fox.txt.lwm.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/fox.txt.m.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/fox.txt.ml.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/fox.txt.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/fox.txt.w.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/fox.txt.wc.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/fox.txt.wl.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/expected/fox.txt.wm.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/inputs/atlamal.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/inputs/empty.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/04_wcr/tests/inputs/fox.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/mk-outs.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/src/main.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/cli.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/empty.txt.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/empty.txt.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/empty.txt.stdin.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/empty.txt.stdin.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/one.txt.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/one.txt.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/one.txt.stdin.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/one.txt.stdin.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/skip.txt.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/skip.txt.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/skip.txt.stdin.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/skip.txt.stdin.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t1.txt.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t1.txt.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t1.txt.stdin.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t1.txt.stdin.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t2.txt.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t2.txt.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t2.txt.stdin.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t2.txt.stdin.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t3.txt.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t3.txt.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t3.txt.stdin.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t3.txt.stdin.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t4.txt.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t4.txt.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t4.txt.stdin.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t4.txt.stdin.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t5.txt.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t5.txt.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t5.txt.stdin.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t5.txt.stdin.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t6.txt.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t6.txt.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t6.txt.stdin.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/t6.txt.stdin.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/three.txt.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/three.txt.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/three.txt.stdin.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/three.txt.stdin.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/two.txt.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/two.txt.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/two.txt.stdin.c.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/expected/two.txt.stdin.out" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/inputs/empty.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/inputs/one.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/inputs/skip.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/inputs/t1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/inputs/t2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/inputs/t3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/inputs/t4.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/inputs/t5.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/inputs/t6.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/inputs/three.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/05_uniqr/tests/inputs/two.txt" afterDir="false" />
+    <list default="true" id="c9652420-69d8-413f-ace9-053840fb99e3" name="Changes" comment="add uniq command">
+      <change afterPath="$PROJECT_DIR$/06_findr/Cargo.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/src/lib.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/src/main.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/cli.rs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/name_a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/name_a.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/name_csv.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/name_csv.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/name_csv_mp3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/name_csv_mp3.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/name_txt_path_a_d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/name_txt_path_a_d.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path1.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_a.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_a_b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_a_b.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_a_b_d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_a_b_d.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_d.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_g.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_g.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_name_a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_name_a.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_path_a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_path_a.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_path_a_b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_path_a_b.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_path_a_b_d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_path_a_b_d.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_path_d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_path_d.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_l.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_l.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_name_a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_name_a.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_path_a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_path_a.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_path_a_b.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_path_a_b.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_path_a_b_d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_path_a_b_d.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_path_d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_path_d.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_l.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_l.txt.windows" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/unreadable_dir.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/a/a.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/a/b/b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/a/b/c/c.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/d/b.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/d/d.tsv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/d/d.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/d/e/e.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/f/f.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/g.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/command-line-rs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/command-line-rs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -140,12 +90,28 @@
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="mySelectedFileTypes">
+      <set>
+        <option value="Go" />
+        <option value="Rust" />
+      </set>
+    </option>
+  </component>
   <component name="GOROOT" url="file:///opt/homebrew/opt/go/libexec" />
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MacroExpansionManager">
     <option name="directoryName" value="uln5g4kz" />
+  </component>
+  <component name="OptimizeOnSaveOptions">
+    <option name="mySelectedFileTypes">
+      <set>
+        <option value="Go" />
+        <option value="Rust" />
+      </set>
+    </option>
   </component>
   <component name="ProjectId" id="2RsQjo0BSnxQVKuLBAwxDpw1KeB" />
   <component name="ProjectLevelVcsManager">
@@ -171,7 +137,7 @@
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
   }
 }</component>
   <component name="RsExternalLinterProjectSettings">
@@ -285,6 +251,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="add uniq command" />
+    <option name="LAST_COMMIT_MESSAGE" value="add uniq command" />
   </component>
   <component name="VgoProject">
     <settings-migrated>true</settings-migrated>
