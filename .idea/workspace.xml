@@ -13,70 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c9652420-69d8-413f-ace9-053840fb99e3" name="Changes" comment="add uniq command">
-      <change afterPath="$PROJECT_DIR$/06_findr/Cargo.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/src/lib.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/src/main.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/cli.rs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/name_a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/name_a.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/name_csv.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/name_csv.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/name_csv_mp3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/name_csv_mp3.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/name_txt_path_a_d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/name_txt_path_a_d.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path1.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_a.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_a_b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_a_b.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_a_b_d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_a_b_d.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_d.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_g.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/path_g.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_name_a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_name_a.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_path_a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_path_a.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_path_a_b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_path_a_b.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_path_a_b_d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_path_a_b_d.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_path_d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_d_path_d.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_l.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_l.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_name_a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_name_a.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_path_a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_path_a.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_path_a_b.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_path_a_b.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_path_a_b_d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_path_a_b_d.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_path_d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_f_path_d.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_l.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/type_l.txt.windows" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/expected/unreadable_dir.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/a/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/a/b/b.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/a/b/c/c.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/d/b.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/d/d.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/d/d.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/d/e/e.mp3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/f/f.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/06_findr/tests/inputs/g.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/command-line-rs.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/command-line-rs.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/06_findr/src/lib.rs" beforeDir="false" afterPath="$PROJECT_DIR$/06_findr/src/lib.rs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,27 +59,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.formatter.settings.were.checked&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.migrated.go.modules.settings&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.go.modules.go.list.on.any.changes.was.set&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;go.import.settings.migrated&quot;: &quot;true&quot;,
-    &quot;go.sdk.automatically.set&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/techarmwork&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;org.rust.cargo.project.model.PROJECT_DISCOVERY&quot;: &quot;true&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;actions.on.save&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.go.formatter.settings.were.checked": "true",
+    "RunOnceActivity.go.migrated.go.modules.settings": "true",
+    "RunOnceActivity.go.modules.go.list.on.any.changes.was.set": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "go.import.settings.migrated": "true",
+    "go.sdk.automatically.set": "true",
+    "last_opened_file_path": "/Users/techarmwork",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "org.rust.cargo.project.model.PROJECT_DISCOVERY": "true",
+    "settings.editor.selected.configurable": "language.rust.cargo.check"
   }
-}</component>
+}]]></component>
   <component name="RsExternalLinterProjectSettings">
     <option name="runOnTheFly" value="true" />
+    <option name="tool" value="Clippy" />
   </component>
   <component name="RunManager" selected="Cargo.Test tests::test_format_field">
     <configuration name="Run catr" type="CargoCommandRunConfiguration" factoryName="Cargo Command" temporary="true">
